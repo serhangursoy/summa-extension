@@ -1,0 +1,35 @@
+{
+    "popup":{
+        "summarize": "Summarize",
+        "content_language": "Content Language",
+        "content_language_list": {
+            "english": "English",
+            "turkish": "Turkish",
+            "russian": "Russian",
+            "french": "French",
+            "italian": "Italian",
+            "spanish": "Spanish",
+            "german": "German",
+            "portuguese": "Portuguese"
+        },
+        "error_container": "An error occurred. Please try again later. If you are seeing this error continuously, please contact the developer.",
+        "content_reduced": "Reduced Content:"
+    },
+    "options": {
+        "settings": "Settings",
+        "language": "Language:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Save Changes",
+        "return_count": "Max Number of Sentence:",
+        "save_info": "Great! Values are saved. You can continue to use the extension as usual."
+    }
+}

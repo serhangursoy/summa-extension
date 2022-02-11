@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Суммировать",
+        "content_language": "Язык содержимого",
+        "content_language_list": {
+            "english": "Английский",
+            "turkish": "Турецкий",
+            "russian": "Русский",
+            "french": "Французский",
+            "italian": "Итальянский",
+            "spanish": "Испанский",
+            "german": "Немецкий",
+            "portuguese": "Португальский"
+        },
+        "error_container": "Произошла ошибка. Повторите попытку позже. Если вы постоянно видите эту ошибку, обращайтесь к разработчику.",
+        "content_reduced": "Сократилось содержимое:"
+    },
+    "options": {
+        "settings": "Параметры",
+        "language": "Язык:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Сохранить изменения",
+        "return_count": "Максимальное число предложений:",
+        "save_info": "Отлично! Значения сохраняются. Можно продолжать использовать расширение как обычно."
+    }
+}

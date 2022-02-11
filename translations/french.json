@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Récapituler",
+        "content_language": "Langue du contenu",
+        "content_language_list": {
+            "english": "Anglais",
+            "turkish": "Turc",
+            "russian": "Russe",
+            "french": "Français",
+            "italian": "Italien",
+            "spanish": "Espagnol",
+            "german": "Allemand",
+            "portuguese": "Portugais"
+        },
+        "error_container": "Une erreur s'est produite. Veuillez réessayer ultérieurement. Si vous voyez cette erreur en continu, veuillez contacter le développeur.",
+        "content_reduced": "Contenu réduit:"
+    },
+    "options": {
+        "settings": "Paramètres",
+        "language": "Langue:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Enregistrer les modifications",
+        "return_count": "Nombre maximal de phrases:",
+        "save_info": "Super ! Les valeurs sont sauvegardées. Vous pouvez continuer à utiliser l'extension comme d'habitude."
+    }
+}

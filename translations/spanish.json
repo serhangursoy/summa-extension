@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Resumir",
+        "content_language": "Idioma de contenido",
+        "content_language_list": {
+            "english": "Inglés",
+            "turkish": "Turquía",
+            "russian": "Ruso",
+            "french": "Francés",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Alemán",
+            "portuguese": "Portugués"
+        },
+        "error_container": "Se ha producido un error. Vuelva a intentarlo más tarde. Si está viendo este error de forma continua, póngase en contacto con el desarrollador.",
+        "content_reduced": "Contenido reducido:"
+    },
+    "options": {
+        "settings": "Configuración",
+        "language": "Idioma:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Guardar cambios",
+        "return_count": "Número máximo de sentencias:",
+        "save_info": "¡Grande! Los valores se guardan. Puede continuar utilizando la extensión como de costumbre."
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Riepiloga",
+        "content_language": "Lingua dei contenuti",
+        "content_language_list": {
+            "english": "Inglese",
+            "turkish": "Turco",
+            "russian": "Russo",
+            "french": "Francese",
+            "italian": "Italiano",
+            "spanish": "Spagnolo",
+            "german": "Tedesco",
+            "portuguese": "Portoghese"
+        },
+        "error_container": "Si è verificato un errore. Si prega di provare più tardi. Se si sta vedendo questo errore continuamente, si prega di contattare lo sviluppatore.",
+        "content_reduced": "Contenuto ridotto:"
+    },
+    "options": {
+        "settings": "Impostazioni",
+        "language": "Lingua:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Salva modifiche",
+        "return_count": "Numero max di Sentenze:",
+        "save_info": "Fantastico! I valori vengono salvati. È possibile continuare a utilizzare l'estensione come di consueto."
+    }
+}

@@ -1,0 +1,146 @@
+@import url("theme.css");
+
+.content {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #272d38;
+  font-weight: 400;
+  font-size: 0.8rem;
+  padding: 5%;
+}
+
+#mainTitle {
+  font-weight: bold;
+  margin: auto;
+  display: block;
+  width: fit-content;
+  user-select: none;
+}
+
+#logoimage {
+  width: 1.3rem;
+  margin: 3px;
+}
+
+#requestSummaryButton.disabled, #requestSummaryButton:hover.disabled {
+  background: rgb(138, 138, 138);
+  color: inherit;
+  cursor: none;
+  pointer-events: none;
+  user-select: none;
+}
+
+header {
+  background-color: white;
+  height: 35px;
+  display: flex;
+}
+
+.titleandlogo {
+  display: inline-flex;
+  margin: auto;
+  margin-right: -35px;
+}
+
+#optionsButton {
+  height: 35px;
+  margin: auto;
+  margin-right: 5px;
+  margin-top: 5px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+#optionsButton>svg {
+  transition-duration: 0.5s;
+  transform-origin: center;
+  transition-property: transform color;
+  width: 18px;
+  height: 18px;
+  color: #5e5e5e;
+}
+
+#optionsButton:hover>svg {
+  transform: rotate(88);
+  color: #6c63ff;
+  -webkit-transform: rotate(88deg);
+}
+
+#errorContainer {
+  background: #ff5454;
+  color: white;
+  padding: 5%;
+  border-radius: 10px;
+  margin-top: 5%;
+}
+
+#summaryArea {
+  width: 100%;
+  min-height: 30%;
+  height: auto;
+}
+
+.summaryContainer {
+  padding: 2px;
+  margin: auto;
+  margin-top: 1%;
+  display: none;
+}
+
+#summaryTitle {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+}
+
+#summaryQuota {
+  font-style: italic;
+}
+
+#summaryReduced {
+  font-style: italic;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#summaryResultArea {
+  padding: 2%;
+  margin: 0;
+}
+
+#requestSummaryButton {
+  margin: auto;
+  display: block;
+  padding: 4%;
+  border-radius: 20px;
+}
+
+.languagerow {
+  display: inline-flex;
+}
+
+.languageLine {
+  margin: auto;
+  width: fit-content;
+  margin-right: 0px;
+}
+
+.languageselectarea>select {
+  height: fit-content;
+  padding: 3px;
+}
+
+.languageselectarea {
+  margin: auto;
+  margin-left: 10px;
+  margin-bottom: -1px;
+}
+
+#informationText {
+  margin: 0px
+}
+
+.content {
+  padding-bottom: 0px;
+}

@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Zusammenfassend",
+        "content_language": "Inhaltssprache",
+        "content_language_list": {
+            "english": "Englisch",
+            "turkish": "Türkisch",
+            "russian": "Russisch",
+            "french": "Französisch",
+            "italian": "Italienisch",
+            "spanish": "Spanisch",
+            "german": "Deutsch",
+            "portuguese": "Portugiesisch"
+        },
+        "error_container": "Ein Fehler ist aufgetreten. Versuchen Sie es später erneut. Wenn Sie diesen Fehler kontinuierlich sehen, wenden Sie sich bitte an den Entwickler.",
+        "content_reduced": "Reduzierter Inhalt:"
+    },
+    "options": {
+        "settings": "Einstellungen",
+        "language": "Sprache:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Änderungen speichern",
+        "return_count": "Max. Anzahl der Sätze:",
+        "save_info": "Toll! Werte werden gespeichert. Sie können die Erweiterung weiterhin wie gewohnt verwenden."
+    }
+}

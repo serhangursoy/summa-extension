@@ -1,0 +1,35 @@
+{
+    "popup": {
+        "summarize": "Özetle",
+        "content_language": "İçerik Dili",
+        "content_language_list": {
+            "english": "İngilizce",
+            "turkish": "Türkçe",
+            "russian": "Rusça",
+            "french": "Fransızca",
+            "italian": "İtalyanca",
+            "spanish": "İspanyolca",
+            "german": "Almanca",
+            "portuguese": "Portekizce"
+        },
+        "error_container": "Bir hata oluştu. Lütfen daha sonra yeniden deneyin. Bu hatayı sürekli olarak görüyorsanız, lütfen geliştiriciye başvurun.",
+        "content_reduced": "Azaltılmış İçerik:"
+    },
+    "options": {
+        "settings": "Ayarlar",
+        "language": "Dil:",
+        "supported_language_list": {
+            "english": "English",
+            "turkish": "Türkçe",
+            "russian": "Русский",
+            "french": "Français",
+            "italian": "Italiano",
+            "spanish": "Español",
+            "german": "Deutsch",
+            "portuguese": "Português"
+        },
+        "save": "Değişiklikleri Kaydet",
+        "return_count": "Tümce Sayısı Üst Sınırı:",
+        "save_info": "Harika! Değerler saklanır. Uzantıyı her zamanki gibi kullanmaya devam edebilirsiniz."
+    }
+}

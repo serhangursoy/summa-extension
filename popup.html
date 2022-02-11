@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+  </style>
+  <link rel="stylesheet" href="styles/popup.css">
+  <meta charset="utf-8"/>
+</head>
+<body>
+  <header>
+    <div class="titleandlogo">
+      <img id="logoimage" />
+      <h2 id="mainTitle">Summa</h2>
+    </div>
+    <div id="optionsButton">
+      <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+    </div>
+  </header>
+  <div class="content">
+    <button id="requestSummaryButton">Summarize</button>
+    <div class="languageLine">
+      <div class="languagerow">
+        <p id="lang_contentlang">Content Language:</p>
+      <div class="languageselectarea">
+        <select id="languageSelectInput">
+          <option value="english">English</option>
+          <option value="turkish">Turkish</option>
+          <option value="russian">Russian</option>
+          <option value="french">French</option>
+        </select>
+      </div>
+      </div>
+    </div>
+    <p id="informationText"></p>
+    <div id="loader" class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+    <div id="errorContainer">An error occurred. Please try again later. If you are seeing this error continously, please contact the developer.</div>
+    <div id="summaryContainer" class="summaryContainer">
+      <h2 id="summaryTitle"></h2>
+      <p id="summaryResultArea"></p>
+      <p id="summaryQuota"></p>
+      <div style="display: inline-flex;">
+        <p id="lang_contentreduced">Content Reduced:</p>
+        <p id="summaryReduced"></p>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

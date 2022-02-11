@@ -1,0 +1,85 @@
+@import url("theme.css");
+
+#mainTitle {
+    font-weight: bold;
+    margin: auto;
+    display: block;
+    width: fit-content;
+    user-select: none;
+    font-size: 2rem;
+    margin-left: 3%;
+}
+
+#logoimage {
+    width: 4rem;
+    margin: 3px;
+}
+
+#requestSummaryButton.disabled, #requestSummaryButton:hover.disabled {
+    background: rgb(138, 138, 138);
+    color: inherit;
+    cursor: none;
+    pointer-events: none;
+    user-select: none;
+}
+
+header {
+    background-color: white;
+    height: 13vh;
+    display: flex;
+}
+
+.titleandlogo {
+    display: inline-flex;
+    margin: auto;
+}
+
+.settingsTitle{
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+.singleRow {
+    display: inline-flex;
+    width: 100%;
+}
+
+.singleRow > label {
+    font-size: 1.2rem;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    margin-right: 10px;
+}
+
+.singleRow > input {
+    width: 30%;
+}
+
+.content {
+    padding-top: 0%;
+}
+
+#requestSummaryButton{
+    text-align: center;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+.subinfo{
+    text-align: right;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 2%;
+    opacity: 0;
+    transition: all 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955) 2s;
+}
+
+input[type="number"]{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-left: 10px;
+    background: hsl(60deg 0% 100%);
+}
+
